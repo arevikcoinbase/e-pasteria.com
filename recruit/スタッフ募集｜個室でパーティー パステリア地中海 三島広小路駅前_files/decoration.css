@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.mincho{
+	font-family:"Times New Roman",Georgia,  Times, serif;
+	
+}
+
+
+.tableBox td{
+	padding:5px;
+}
+
+.tableBox table{
+}
+
+.tdbg_brown{
+	color:#fff;
+	background:#645037;	
+}
+.tdbg_beju{
+	background:#fbf1e5;	
+}
+
+
+
+
+
+
+
+
+/* td bgcolor
+---------------------------------------------- */
+
+.tdbg_rightBlue{
+	background:#dbf5f1;
+}
+
+.tdbg_emerald{
+	background:#f6fae6;
+}
+
+.tdbg_default{
+	background:#fff4db;
+}
+
+.tdbg_default02{
+	background:#fff8f2;
+}
+
+.tdbg_white{
+	background:#fff;
+}
+.tdbg_green{
+	background:#f8fae2;
+}
+
+.tdbg_pink{
+	background:#fceaea;
+}
+.tdbg_rgreen{
+	background:#f0f0ea;
+}
+
+.tdbg_yellow{
+	background:#fafbee;
+}
+
+.tdbg_yellow_01{
+	background:#ffff33;
+}
+
+.tdbg_yellow_02{
+	background:#ffffcc;
+}
+
+.tdbg_blue{
+	background:#e1f6fd;
+}
+
+.tdbg_orange{
+	background:#faebdc;
+}
+
+.tdbg_rightGlay{
+	/*background:#fafafa;*/
+	background:#F5F5F5;
+}
+
+.tdbg_white{
+	background:#fff;
+}
+.tdbg_red_dotted{
+	background:url(/web/20190428093753im_/http://www.e-pasteria.com/common/images/tdbg_red_dotted.jpg);
+}
+.tdbg_yellow_dotted{
+	background:url(/web/20190428093753im_/http://www.e-pasteria.com/common/images/tdbg_yellow_dotted.jpg);
+}
+
+/* padding margin
+----------------------------------------------- */
+.pt5{
+	padding-top:5px;
+}
+.pt10{
+	padding-top:10px;
+}
+
+.pb10{
+	padding-bottom:10px;
+}
+
+.mt10{
+	margin-top:10px;
+}
+
+.mb15{
+	margin-bottom:15px;
+}
+
+.mb5{
+	margin-bottom:5px;
+}
+
+.mb8{
+	margin-bottom:8px;
+}
+
+
+/* fontcolor & Weight
+----------------------------------------------- */
+.maholovaColor{
+	color:#44a695;
+}
+
+.red{
+	color:#C00;
+}
+
+.blue{
+	color:#0095CC;
+}
+
+.black{
+	color:#333;
+}
+
+.orange{
+	color:#E06F0C;
+}
+.green{
+	color:#204C37;	
+	
+}
+.bold{
+	font-weight:bold;
+}
+
+.tdRed{
+	color:#e10000;
+	font-weight:bold;
+	font-size:118%;
+}
+.tdOrange{
+	color:#FF8E00;
+	font-weight:bold;
+	font-size:125%;	
+}
+.tdBlue{
+	color:#0095CC;
+	font-weight:bold;
+	font-size:125%;	
+}
+.tdRedMin{
+	color:#e10000 !important;
+	font-weight:bold;
+	font-size:100%;
+}
+.tdOrangeMin{
+	color:#FF8E00;
+	font-weight:bold;
+	font-size:100%;	
+}
+.tdBlueMin{
+	color:#0095CC;
+	font-weight:bold;
+	font-size:100%;	
+}
+
+/* fontsize
+----------------------------------------------- */
+
+.f85{
+	font-size:85%;
+}
+
+.f93{
+	font-size:93%;
+}
+
+
+.f11{
+	font-size:0.9em;
+}
+
+
+.f12{
+	font-size:0.95em;
+}
+
+
+p.txtCenter{
+	text-align:center;
+}
+
+
+p.txtRight{
+	text-align:right;
+}
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 09:37:53 Apr 28, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:23:36 Jun 04, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.622
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.01
+  esindex: 0.01
+  cdx.remote: 11.544
+  LoadShardBlock: 94.943 (3)
+  PetaboxLoader3.datanode: 251.658 (5)
+  PetaboxLoader3.resolve: 184.226 (3)
+  load_resource: 436.545 (2)
+*/

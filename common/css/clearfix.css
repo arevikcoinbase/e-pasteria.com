@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* for modern brouser */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+ /* IE7,MacIE5 */
+.clearfix {
+	display: inline-block;
+}
+ 
+html .clearfix {
+	display: block;
+}
+ 
+ /* WinIE6 below, Exclude MacIE5 \*/
+* html .clearfix {
+	height: 1%;
+}
+
+
+/* Dreamweaver preview */
+
+.clearfix + *{
+    clear: both;
+}

@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+/* PC (1025～)
+-----------------------------------------------------------------
+----------------------------------------------------------------- */
+
+@media screen and (min-width: 641px) {
+.spFigure{display:none;}
+.mainVisualSpCover{display:none;}
+.spMapBtn{display:none;}
+
+
+body{
+	background:url(/web/20190417233715im_/http://www.e-pasteria.com/privacy/images/page_bg.jpg) center top no-repeat;
+	background-size:100% auto;
+}
+
+
+section.read{
+	width:1160px;
+	height:auto;
+	margin:0px auto;
+	padding:0px 0px 40px 0px;	
+}
+	section.read h1{
+		display:block;
+		width:100%;
+		height:auto;
+		padding:0px 0px 12px 0px;
+		margin:0px 0px 15px 0px;
+		text-align:center;
+		background:url(/web/20190417233715im_/http://www.e-pasteria.com/common/images/title_bg.png) center bottom no-repeat;	
+		
+		font-size:125%;
+		font-weight:bold;
+		color:#422c10;
+		text-shadow:1px 1px 1px #fff;
+	}
+	section.read p{
+		color:#422c10;
+		font-weight:bold;
+		text-align:center;	
+		text-shadow:1px 1px 1px #fff;
+		line-height:1.88em;
+	}
+	
+
+
+
+/* section.access
+------------------------------------------------*/
+section.access{
+	width:1160px;
+	height:auto;
+	margin:0px auto;
+	padding:0px 0px 65px 0px;	
+}
+	section.access h2{
+		display:block;
+		width:100%;
+		height:auto;
+		padding:0px 0px 7px 0px;
+		margin:0px 0px 15px 0px;
+		text-align:center;
+		background:url(/web/20190417233715im_/http://www.e-pasteria.com/privacy/images/border_btm_double.png) center bottom repeat-x;
+		
+		font-size:168%;
+		font-weight:bold;
+		color:#422c10;
+		text-shadow:1px 1px 1px #fff;
+	}
+	section.access p.read{
+		color:#422c10;
+		font-weight:bold;
+		text-align:center;	
+		text-shadow:1px 1px 1px #fff;
+		line-height:1.88em;
+		padding:0px 0px 25px 0px;
+	}
+	section.access .accessInformation{
+		width:1160px;
+		height:auto;
+		margin:0px 0px 0px 0px;
+		padding:15px 35px 15px 35px;
+		background:#fff;
+		overflow:hidden;
+		
+		box-shadow:1px 1px 3px #b49878;
+		
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;	
+	}
+		.accessInformation h3{
+			font-size:125%;
+			color:#204c38;
+			border-left:5px solid #204c38;
+			font-weight:bold;
+			padding:0px 0px 0px 8px;
+			margin:0px 0px 8px 0px;	
+		}
+
+
+.privacyBox{
+	width:80%;
+	height:auto;
+	margin:0px auto;
+	padding:20px 0px 0px 0px;	
+}
+
+		section dl{
+			
+		}
+			section dl dt{
+				font-size:106%;
+				font-weight:bold;
+				margin:0px 0px 9px 0px;
+				padding:0px 0px 5px 0px;
+				border-bottom:1px dotted #666;	
+			}
+				section dl dt span{
+					background:#204C37;
+					color:#fff;
+					margin-right:10px;
+					padding:0px 5px;
+				}
+			section dl dd{
+				padding:0px 0px 25px 15px;
+			}
+				section dl dd span{
+					font-size:106%;
+					font-weight:bold;
+					background:#DB325C;
+					color:#fff;
+					margin-right:10px;
+					padding:0px 6px;
+				}
+				section dl dd ul{
+					padding:0px 0px 0px 20px;
+				}
+				section dl dd ul li{
+					list-style:circle;
+					list-style-position:outside;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* SmartPhone
+-----------------------------------------------------------------
+----------------------------------------------------------------- */
+
+@media screen and (max-width:640px)  {
+
+
+#paraBg{display:none;}
+nav{display:none;}
+
+
+body{
+	background:url(/web/20190417233715im_/http://www.e-pasteria.com/common/images/page_bg_sp.jpg) fixed;
+	background-size:100% auto;
+}
+
+
+
+section.read{
+	width:100%;
+	height:auto;
+	margin:0px auto 20px auto;
+	padding:0px 0px 15px 0px;	
+	background:rgba(255,255,255,0.75);
+}
+	section.read h1{
+		display:block;
+		width:100%;
+		height:auto;
+		padding:8px 0px 8px 0px;
+		margin:0px 0px 15px 0px;
+		text-align:center;
+		background:#204C37;	
+		z-index:999999;
+		position:relative;
+		box-shadow:1px 1px 1px #666;
+		
+		font-size:100%;
+		font-weight:bold;
+		color:#fff;
+		text-shadow:1px 1px 1px #333;
+	}
+	section.read p{
+		display:block;
+		width:96%;
+		margin:0px auto;
+		color:#422c10;
+		font-weight:bold;
+		text-align:left;	
+		text-shadow:1px 1px 1px #fff;
+		line-height:1.48em;
+	}
+	
+	section.read ul{
+		display:block;
+		width:96%;
+		height:auto;
+		margin:0px auto;
+		padding:15px 0px 0px 0px;
+		overflow:hidden;
+	}
+		section.read ul li{
+			display:block;
+			width:49%;
+			height:auto;
+			margin:0px 0px 6px 0px;
+			float:left;
+		}
+			section.read ul li a{
+				display:block;
+				padding:12px 0px;
+				color:#fff;
+				text-align:center;
+				background:#533a1a;
+				font-size:93%;
+			}
+				section.read ul li a:hover{
+					text-decoration:none;
+					background:#6d4e27;	
+				}
+				section.read ul li a img{
+					width:10px;
+					height:auto;
+					margin-right:3px;
+				}
+
+
+
+
+/* section.access
+------------------------------------------------*/
+section.access{
+	width:96%;
+	height:auto;
+	margin:0px auto;
+	padding:0px 0px 25px 0px;	
+}
+	section.access h2{
+		display:block;
+		width:100%;
+		height:auto;
+		padding:0px 0px 7px 0px;
+		margin:0px 0px 15px 0px;
+		text-align:center;
+		background:url(/web/20190417233715im_/http://www.e-pasteria.com/privacy/images/border_btm_double.png) center bottom repeat-x;
+		
+		font-size:112%;
+		font-weight:bold;
+		color:#422c10;
+		text-shadow:1px 1px 1px #fff;
+	}
+	section.access p.read{
+		color:#422c10;
+		font-weight:bold;
+		text-align:left;	
+		text-shadow:1px 1px 1px #fff;
+		line-height:1.48em;
+		padding:0px 0px 13px 0px;
+		font-size:93%;
+	}
+	section.access .accessInformation{
+		width:100%;
+		height:auto;
+		margin:0px 0px 0px 0px;
+		padding:12px;
+		background:#fff;
+		overflow:hidden;
+		
+		box-shadow:1px 1px 3px #b49878;
+		
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;	
+	}
+		.accessInformation h3{
+			font-size:100%;
+			color:#204c38;
+			border-left:5px solid #204c38;
+			font-weight:bold;
+			padding:0px 0px 0px 8px;
+			margin:0px 0px 8px 0px;	
+		}
+
+
+		section dl{
+			
+		}
+			section dl dt{
+				font-size:106%;
+				font-weight:bold;
+				margin:0px 0px 9px 0px;
+				padding:0px 0px 5px 2em;
+				text-indent:-2em;
+				border-bottom:1px dotted #666;	
+			}
+				section dl dt span{
+					background:#0095cc;
+					color:#fff;
+					margin-right:10px;
+					padding:0px 5px;
+				}
+			section dl dd{
+				padding:0px 0px 25px 15px;
+			}
+				section dl dd span{
+					font-size:106%;
+					font-weight:bold;
+					background:#DB325C;
+					color:#fff;
+					margin-right:10px;
+					padding:0px 6px;
+				}
+				section dl dd ul{
+					padding:0px 0px 0px 20px;
+				}
+				section dl dd ul li{
+					list-style:circle;
+					list-style-position:outside;
+				}
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+/*
+     FILE ARCHIVED ON 23:37:15 Apr 17, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:31:36 Jun 04, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.483
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.009
+  esindex: 0.01
+  cdx.remote: 14.611
+  LoadShardBlock: 72.043 (3)
+  PetaboxLoader3.datanode: 113.592 (4)
+  load_resource: 1310.596
+  PetaboxLoader3.resolve: 1241.9
+*/

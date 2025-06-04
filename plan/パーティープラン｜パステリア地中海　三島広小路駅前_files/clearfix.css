@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* for modern brouser */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+ /* IE7,MacIE5 */
+.clearfix {
+	display: inline-block;
+}
+ 
+html .clearfix {
+	display: block;
+}
+ 
+ /* WinIE6 below, Exclude MacIE5 \*/
+* html .clearfix {
+	height: 1%;
+}
+
+
+/* Dreamweaver preview */
+
+.clearfix + *{
+    clear: both;
+}
+
+
+
+
+/*
+     FILE ARCHIVED ON 15:13:18 Sep 25, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:30:11 Jun 04, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.703
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.011
+  esindex: 0.012
+  cdx.remote: 36.947
+  LoadShardBlock: 218.535 (3)
+  PetaboxLoader3.datanode: 174.1 (4)
+  PetaboxLoader3.resolve: 143.64 (2)
+  load_resource: 114.014
+*/

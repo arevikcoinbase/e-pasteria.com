@@ -1,0 +1,117 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+
+
+
+$(document).ready(function() {
+	
+	// SideNavi
+	$(function() {
+		$('nav ul li:nth-child(3)').addClass('active');
+	});
+	
+	
+	$(function(){
+	var wids = $(window).width();
+		if( wids > 641 ){
+			$('section.read ul li:nth-child(5)').css('margin-right', '0px');
+			$('section.btmNavi ul li:nth-child(5)').css('margin-right', '0px');
+			
+			// ナビ固定
+			$(window).on("scroll", function () {
+				// scrollTop()が0より大きい場合
+				if ($(this).scrollTop() > 408) {
+					$(".fixedNaviCover").slideDown();
+				} else {
+					$(".fixedNaviCover").fadeOut("fast");
+				}
+			});			
+			
+									
+			
+			
+		}else{
+			$('section.read ul li:nth-child(1)').css('margin-right', '2%');
+			$('section.read ul li:nth-child(3)').css('margin-right', '2%');
+			$('section.btmNavi ul li:nth-child(1)').css('margin-right', '2%');
+			$('section.btmNavi ul li:nth-child(3)').css('margin-right', '2%');
+			$('.roomInformation .thumbnail figure:nth-child(2)').css('margin', '0px 2%');
+			
+			if($("a[rel='colorbox']").colorbox) {
+				$("a[rel='colorbox']").colorbox({fixed:'true',transition:'fade',maxWidth:'96%',maxHeight:'90%'});
+			}
+			
+		}
+	});
+	
+	
+	
+	//Examples of how to assign the Colorbox event to elements
+	$(".group1").colorbox({rel:'group1'});
+	$(".group2").colorbox({rel:'group2', transition:"fade"});
+	$(".group3").colorbox({rel:'group3', transition:"fade"});
+	$(".group4").colorbox({rel:'group4', transition:"fade"});
+	$(".group5").colorbox({rel:'group5', transition:"fade"});
+	$(".group6").colorbox({rel:'group6', transition:"fade"});
+
+	$(".ajax").colorbox();
+	$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+	$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+	$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+	$(".inline").colorbox({inline:true, width:"50%"});
+	$(".callbacks").colorbox({
+		onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+		onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+		onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+		onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+		onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+	});
+
+	$('.non-retina').colorbox({rel:'group5', transition:'none'})
+	$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+	
+	//Example of preserving a JavaScript event for inline calls.
+	$("#click").click(function(){ 
+		$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+		return false;
+	});	
+
+		
+});
+
+
+
+
+
+
+}
+/*
+     FILE ARCHIVED ON 00:51:27 Apr 18, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:30:16 Jun 04, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.491
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 6.038
+  LoadShardBlock: 109.662 (3)
+  PetaboxLoader3.datanode: 75.228 (4)
+  PetaboxLoader3.resolve: 164.896 (2)
+  load_resource: 167.099
+*/

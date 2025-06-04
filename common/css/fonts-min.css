@@ -1,0 +1,44 @@
+/*
+YUI 3.4.1 (build 4118)
+Copyright 2011 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+http://yui.yahooapis.com/2.7.0/build/fonts/fonts-min.css
+*/
+
+
+/*-----------------------------------------------------
+Yahoo UI Library Font-size Adjustment
+Copyright (c) 2006, Yahoo! Inc. All rights reserved.
+http://developer.yahoo.com/yui/license.txt
+http://developer.yahoo.com/yui/fonts/
+10px = 77%     11px = 85%     12px = 93%     13px = 100%
+14px = 108%    15px = 116%    16px = 123.1%  17px = 131%
+18px = 138.5%  19px = 146.5%  20px = 153.9%  21px = 161.6%
+22px = 167%    23px = 174%    24px = 182%    25px = 189%
+26px = 197%
+------------------------------------------------------*/
+
+
+body {
+	font:13px/1.231;
+	*font-size:small;
+	*font:x-small;
+	font-family:"メイリオ", Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}
+select, input, button, textarea {
+	font:99%;
+}
+table {
+	font-size:inherit;
+	font:100%;
+}
+pre, code, kbd, samp, tt {
+	font-family:monospace;
+	*font-size:108%;
+	line-height:100%;
+}
+
+body{
+	font-size:100%;
+}

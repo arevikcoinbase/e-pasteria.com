@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+html{
+	/*background:url(/web/20190426092107im_/http://www.e-pasteria.com/common/images/page_bg.jpg) center top no-repeat;
+	height:100%;*/
+}
+body{
+	font-size:14px;
+	-webkit-text-size-adjust: none;
+	color:#333333;
+	
+	height:100%;
+}
+
+
+
+/* LINK
+----------------------------------------------------- */
+a:link    {text-decoration:none; color:#333333;}
+a:visited {text-decoration:none; color:#333333;}
+a:hover   {text-decoration:underline; color:#333333;}
+a:active  {text-decoration:none; color:#333333;}
+
+
+
+@media screen and (min-width:641px) {
+	
+a img {
+	-webkit-transition: 0.3s ease-in-out;
+	   -moz-transition: 0.3s ease-in-out;
+	     -o-transition: 0.3s ease-in-out;
+	        transition: 0.3s ease-in-out;
+}
+a:hover img {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+
+}
+
+@media screen and (max-width:640px) {
+	
+body{
+	font-size:14px;
+	-webkit-text-size-adjust: none;
+	color:#333333;
+	height:100%;
+}
+
+
+
+
+}
+
+
+/* Table 
+----------------------------------------------------- */
+table{}
+td{padding:3px; border:0px;}
+
+table{
+	border-right:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+	table td{
+		border-left:2px solid #fff;
+		border-top:2px solid #fff;
+	}
+
+
+
+/* tag
+------------------------------------------------------- */
+strong{
+	font-weight:bold;
+}
+
+
+
+.text, textarea, .dropdown, input, select{
+	border:1px solid #e4e4cc;
+	padding: 5px;
+	color: #333;
+	background: #fff;
+	border-radius: 3px;
+	
+	/* Webkit */
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#eee),
+		to(#fff)
+		);
+	
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 1px #fff;
+	
+	/* Firefox */
+	background: -moz-linear-gradient(
+		top,
+		#eee,
+		#fff
+		);
+	
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 1px 1px 1px #fff;
+	
+	/* IE */
+	filter:progid:DXImageTransform.Microsoft.gradient
+        (startColorstr=#ffeeeeee,endColorstr=#ffffffff);
+	zoom: 1;
+}
+	
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 09:21:07 Apr 26, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:23:36 Jun 04, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.581
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.012
+  esindex: 0.011
+  cdx.remote: 9.453
+  LoadShardBlock: 653.163 (3)
+  PetaboxLoader3.datanode: 169.156 (5)
+  PetaboxLoader3.resolve: 555.535 (3)
+  load_resource: 291.871 (2)
+*/
