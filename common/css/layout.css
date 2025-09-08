@@ -288,7 +288,7 @@ nav{
 #container{
 	width:100%;
 	height:auto;
-	padding:50px 0px 20px 0px;
+	padding:50px 0px 20px 450px;
 	margin:-3px 0px 0px 0px;
 	background:url(../images/page_bg.jpg) fixed;
 }
@@ -1116,7 +1116,7 @@ nav{
 #container{
 	width:100%;
 	height:auto;
-	padding:50px 0px 20px 0px;
+	padding:50px 0px 20px 450px;
 	margin:-3px 0px 0px 0px;
 	background:url(../images/page_bg.jpg) fixed;
 }
